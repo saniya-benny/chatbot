@@ -12,7 +12,7 @@ class ChatPage extends StatefulWidget {
 
 class _ChatPageState extends State<ChatPage> {
   List<ChatModel> chatList = []; // Your list of ChatModel objects
-  String apiKey = 'AIzaSyAHG0qF5gypc0FacjqL-jb7WqMW508YLmQ';
+  String apiKey = 'Api key';
 
   geminiCall() {
     Gemini.instance
